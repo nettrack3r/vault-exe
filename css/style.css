@@ -47,6 +47,8 @@ body {
   box-shadow:
     0 0 20px #00ff9c,
     inset 0 0 20px #00ff9c;
+
+  transition: 0.3s;
 }
 
 .terminal-header {
@@ -136,5 +138,25 @@ button:hover {
 }
 
 .success {
-  color: #00ff9c;
+  color: #00d9ff;
+}
+
+/* WRONG CODE STATE */
+
+.denied {
+  border-color: #ff3b3b;
+
+  box-shadow:
+    0 0 20px #ff3b3b,
+    inset 0 0 20px #ff3b3b;
+}
+
+/* CORRECT CODE STATE */
+
+.granted {
+  border-color: #00d9ff;
+
+  box-shadow:
+    0 0 25px #00d9ff,
+    inset 0 0 25px #00d9ff;
 }
